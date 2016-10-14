@@ -1,0 +1,429 @@
+{
+  "orders": [
+    {
+      "caseId": "OT-0001",
+      "registrationNumber": "SNM208",
+	  "startDate" : "12/19/2015",
+      "startTime": "3:37 p.m.",
+	  "status": "Recepcionado",
+	  "schedToDate": "10/14/2016",
+	  "schedToTime": "10:15",
+      "brand": "INTER",
+	  "line": "9400i 6x4",
+      "typeId": "NAVI-ESPECIALIZADO",
+      "custName": "LOPERA RESTREPO JORGE ALVEIRO",
+	  "wrkCtrGroupId": "AGUA-SER",
+	  "siteId": "ANT-AGU",
+	  "responsible": "nombre vend",
+	  "pendingQuotations": 0,
+	  "deliveredPercentage": 95,
+	  "progressMOPercentage": 25,
+	  "currentTasks":[
+		{
+			"transId": "IDS0001",
+			"name": "Desmontaje soporte motor",
+			"status": "Finalizado",
+			"elapsedSeconds": 11110,
+			"hours": 50.2,
+			"qty": 19
+		},
+		{
+			"transId": "IDS0003",
+			"name": "Cambiar retrovisores",
+			"status": "Por iniciar",
+			"elapsedSeconds": 11684,
+			"hours": 50.2,
+			"qty": 19
+		},
+		{
+			"transId": "IDS0002",
+			"name": "Ajuste puerta",
+			"status": "En proceso",
+			"elapsedSeconds": 77990,
+			"hours": 50.2,
+			"qty": 19
+		},
+		{
+			"transId": "IDS0016",
+			"name": "puertas  de atras",
+			"status": "En proceso",
+			"elapsedSeconds": 77770,
+			"hours": 50.2,
+			"qty": 19
+		},
+		{
+			"transId": "IDS0019",
+			"name": "Ajustes",
+			"status": "En proceso",
+			"elapsedSeconds": 99990,
+			"hours": 50.2,
+			"qty": 19
+		},
+		{
+			"transId": "IDS0022",
+			"name": "algo mas",
+			"status": "Por iniciar",
+			"elapsedSeconds": 10170,
+			"hours": 50.2,
+			"qty": 19
+		}
+	  ]
+	},
+	{
+	  "caseId": "OT-0002",
+      "registrationNumber": "SPL086",
+	  "startDate" : "07/05/2016",
+      "startTime": "1:12 p.m.",
+	  "status": "En proceso",
+	  "schedToDate": "11/29/2016",
+	  "schedToTime": "06:45",
+      "brand": "OTRAS",
+	  "line": "9400i 6x4",
+      "typeId": "NAVI-ESPECIALIZADO",
+      "custName": "GOMEZ ARROYAVE CLAUDIA PATRICIA",
+	  "wrkCtrGroupId": "AGUA-SER",
+	  "siteId": "ANT-AGU",
+	  "responsible": "nombre vend2",
+	  "pendingQuotations": 0,
+	  "deliveredPercentage": 15,
+	  "progressMOPercentage": 25,
+	  "currentTasks":[
+		{
+			"transId": "IDS0004",
+			"name": "Desmontaje soporte motor",
+			"status": "Finalizado",
+			"elapsedSeconds": 400,
+			"hours": 50.2,
+			"qty": 19
+		},
+		{
+			"transId": "IDS0005",
+			"name": "Cambiar retrovisores",
+			"status": "Finalizado",
+			"elapsedSeconds": 164,
+			"hours": 50.2,
+			"qty": 19
+		},
+		{
+			"transId": "IDS0006",
+			"name": "Instalar puerta",
+			"status": "En proceso",
+			"elapsedSeconds": 894,
+			"hours": 50.2,
+			"qty": 19
+		}
+	  ]
+	},
+	{
+	  "caseId": "OT-0003",
+      "registrationNumber": "HHK999",
+	  "startDate" : "07/25/2015",
+      "startTime": "1:12 p.m.",
+	  "status": "En proceso",
+	  "schedToDate": "10/13/2016",
+	  "schedToTime": "01:45",
+      "brand": "INTER",
+	  "line": "4400 4X2",
+      "typeId": "NAVI-ESPECIALIZADO",
+      "custName": "AVICOLA NACIONAL S.A",
+	  "wrkCtrGroupId": "AGUA-SER",
+	  "siteId": "BOL-PRI",
+	  "responsible": "nombre vend1",
+	  "pendingQuotations": 1,
+	  "deliveredPercentage": 98,
+	  "progressMOPercentage": 25,
+	  "currentTasks":[
+		{
+			"transId": "IDS0007",
+			"name": "Desmontaje soporte motor",
+			"status": "Finalizado",
+			"elapsedSeconds": 400,
+			"hours": 50.2,
+			"qty": 19
+		},
+		{
+			"transId": "IDS0008",
+			"name": "Cambiar retrovisores",
+			"status": "Por iniciar",
+			"elapsedSeconds": 164,
+			"hours": 50.2,
+			"qty": 19
+		},
+		{
+			"transId": "IDS0009",
+			"name": "Revisar llantas",
+			"status": "En proceso",
+			"elapsedSeconds": 1970,
+			"hours": 50.2,
+			"qty": 19
+		}
+	  ]
+	},
+	{
+	  "caseId": "OT-0004",
+      "registrationNumber": "WKP981",
+	  "startDate" : "11/14/2016",
+      "startTime": "9:12 p.m.",
+	  "status": "En proceso",
+	  "schedToDate": "05/19/2016",
+	  "schedToTime": "14:45",
+      "brand": "INTER",
+	  "line": "PROSTAR",
+      "typeId": "NAVI-PITS",
+      "custName": "EMPRESA S.A",
+	  "wrkCtrGroupId": "AGUA-SER",
+	  "siteId": "ANT-AGU",
+	  "responsible": "nombre vend4",
+	  "pendingQuotations": 1,
+	  "deliveredPercentage": 48,
+	  "progressMOPercentage": 25,
+	  "currentTasks":[
+	  ]
+	},
+	{
+	  "caseId": "OT-00104",
+      "registrationNumber": "WKP981",
+	  "startDate" : "11/01/2016",
+      "startTime": "9:12 p.m.",
+	  "status": "En proceso",
+	  "schedToDate": "10/14/2016",
+	  "schedToTime": "8:45",
+      "brand": "INTER",
+	  "line": "PROSTAR",
+      "typeId": "NAVI-PITS",
+      "custName": "EMPRESA S.A",
+	  "wrkCtrGroupId": "AGUA-SER",
+	  "siteId": "ANT-AGU",
+	  "responsible": "nombre vend4",
+	  "pendingQuotations": 1,
+	  "deliveredPercentage": 0,
+	  "currentTasks":[
+	  ]
+	},
+	{
+	  "caseId": "OT-0014",
+      "registrationNumber": "WKP981",
+	  "startDate" : "11/01/2016",
+      "startTime": "9:12 p.m.",
+	  "status": "En proceso",
+	  "schedToDate": "10/14/2016",
+	  "schedToTime": "14:45",
+      "brand": "INTER",
+	  "line": "PROSTAR",
+      "typeId": "NAVI-PITS",
+      "custName": "EMPRESA S.A",
+	  "wrkCtrGroupId": "AGUA-SER",
+	  "siteId": "ANT-AGU",
+	  "responsible": "nombre vend4",
+	  "pendingQuotations": 1,
+	  "progressMOPercentage": 25,
+	  "currentTasks":[
+	  ]
+	},
+	{
+	  "caseId": "OT-1004",
+      "registrationNumber": "WKP981",
+	  "startDate" : "11/01/2016",
+      "startTime": "9:12 p.m.",
+	  "status": "En proceso",
+	  "schedToDate": "05/19/2016",
+	  "schedToTime": "14:45",
+      "brand": "INTER",
+	  "line": "PROSTAR",
+      "typeId": "NAVI-PITS",
+      "custName": "EMPRESA S.A",
+	  "wrkCtrGroupId": "AGUA-SER",
+	  "siteId": "ANT-AGU",
+	  "responsible": "nombre vend4",
+	  "pendingQuotations": 1,
+	  "deliveredPercentage": 75,
+	  "progressMOPercentage": 25,
+	  "currentTasks":[
+	  ]
+	},
+	{
+	  "caseId": "OT-0005",
+      "registrationNumber": "POA181",
+	  "startDate" : "05/12/2015",
+      "startTime": "4:12 p.m.",
+	  "status": "En proceso",
+	  "schedToDate": "10/13/2016",
+	  "schedToTime": "16:45",
+      "brand": "INTER",
+	  "line": "GENERICO",
+      "typeId": "NAVI-PITS",
+      "custName": "MUNICIPIO DE MEDELLIN",
+	  "wrkCtrGroupId": "AGUA-SER",
+	  "siteId": "ANT-AGU",
+	  "responsible": "nombre vend8",
+	  "pendingQuotations": 2,
+	  "deliveredPercentage": 37.8,
+	  "progressMOPercentage": 65,
+	  "currentTasks":[
+		{
+			"transId": "IDS0010",
+			"name": "Desmonte soporte motor",
+			"status": "Por iniciar",
+			"elapsedSeconds": 1500,
+			"hours": 50.2,
+			"qty": 19
+		},
+		{
+			"transId": "IDS0011",
+			"name": "Cambiar caja de cambios",
+			"status": "En proceso",
+			"elapsedSeconds": 26843,
+			"hours": 50.2,
+			"qty": 19
+		}
+	  ]
+	},
+	{
+	  "caseId": "OT-0005",
+      "registrationNumber": "POA181",
+	  "startDate" : "05/12/2015",
+      "startTime": "4:12 p.m.",
+	  "status": "En proceso",
+	  "schedToDate": "12/30/2016",
+	  "schedToTime": "13:45",
+      "brand": "INTER",
+	  "line": "GENERICO",
+      "typeId": "NAVI-PITS",
+      "custName": "MUNICIPIO DE MEDELLIN",
+	  "wrkCtrGroupId": "AGUA-SER",
+	  "siteId": "ANT-APA",
+	  "responsible": "nombre vend8",
+	  "pendingQuotations": 0,
+	  "deliveredPercentage": 20,
+	  "progressMOPercentage": 25,
+	  "currentTasks":[
+		{
+			"transId": "IDS0010",
+			"name": "Desmonte soporte motor",
+			"status": "Por iniciar",
+			"elapsedSeconds": 1500,
+			"hours": 1.2,
+			"qty": 15
+		},
+		{
+			"transId": "IDS0011",
+			"name": "Cambiar caja de cambios",
+			"status": "En proceso",
+			"elapsedSeconds": 26843,
+			"hours": 1.2,
+			"qty": 1.5
+		}
+	  ]
+	},
+	{
+	  "caseId": "OT-0005",
+      "registrationNumber": "POA181",
+	  "startDate" : "05/12/2015",
+      "startTime": "4:12 p.m.",
+	  "status": "En proceso",
+	  "schedToDate": "10/15/2016",
+	  "schedToTime": "10:51",
+      "brand": "INTER",
+	  "line": "GENERICO",
+      "typeId": "NAVI-PITS",
+      "custName": "MUNICIPIO DE MEDELLIN",
+	  "wrkCtrGroupId": "AGUA-SER",
+	  "siteId": "ANT-APA",
+	  "responsible": "nombre vend8",
+	  "pendingQuotations": 4,
+	  "deliveredPercentage": 5,
+	  "progressMOPercentage": 50,
+	  "currentTasks":[
+		{
+			"transId": "IDS0010",
+			"name": "Desmonte soporte motor",
+			"status": "Por iniciar",
+			"elapsedSeconds": 1500,
+			"hours": 50.2,
+			"qty": 19
+		},
+		{
+			"transId": "IDS0011",
+			"name": "Cambiar caja de cambios",
+			"status": "En proceso",
+			"elapsedSeconds": 26843,
+			"hours": 50.2,
+			"qty": 19
+		}
+	  ]
+	}
+],
+
+"caseTypes" : [
+          {
+              "id": "NAVI-ESPECIALIZADO",
+              "description": "Navi especializado",
+              "schedDirection": "Hacia adelante"
+          },
+          {
+              "id": "NAVI-EXPRESS",
+              "description": "Servicio rapido / NAVI-EXPRESS",
+              "schedDirection": "Hacia adelante"
+          },
+          {
+              "id": "NAVI-LYP",
+              "description": "LATONERIA Y PINTURA",
+              "schedDirection": "Hacia adelante"
+          },
+          {
+              "id": "NAVI-PITS",
+              "description": "LUBRICACIÓN / NAVIPITS",
+              "schedDirection": "Hacia adelante"
+          }
+    ],
+"inventSites":[
+	{
+		"id": "ANT-AGU",
+		"name": "Antioquia - Medellin - Aguacatala",
+		"regionId": "MEDELLIN",
+		"locationId": 1200
+	},
+	{
+		"id": "ANT-APA",
+		"name": "Antioquia - Apartado",
+		"regionId": "MEDELLIN",
+		"locationId": 0
+	},
+	{
+		"id": "ANT-SIT",
+		"name": "Antioquia - Servicio - Itagui",
+		"regionId": "MEDELLIN",
+		"locationId": 1000
+	},
+	{
+		"id": "ATL-PRI",
+		"name": "Atlantico - Barranquilla - Principal",
+		"regionId": "MEDELLIN",
+		"locationId": 1400
+	},
+	{
+		"id": "BOG-AME",
+		"name": "Bogota D.C. - Bogota - Americas",
+		"regionId": "BOGOTA",
+		"locationId": 1600
+	},
+	{
+		"id": "BOL-PRI",
+		"name": "Bolivar - Cartagena - Principal",
+		"regionId": "MEDELLIN",
+		"locationId": 2400
+	},
+	{
+		"id": "CAU-PRI",
+		"name": "Cauca - Popayan - Principal",
+		"regionId": "CALI",
+		"locationId": 0
+	},
+	{
+		"id": "CORP2",
+		"name": "Cundinamarca - Mosquera",
+		"regionId": "BOGOTA",
+		"locationId": 4000
+	}
+]
+}

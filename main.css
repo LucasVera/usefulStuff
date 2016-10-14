@@ -1,0 +1,330 @@
+﻿.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  padding-bottom:40px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  color: #777;
+  width:100%;
+  padding-top:10px;
+  background-color:darkslategray;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 5px solid #55e555;
+  background-color: darkslategrey;
+
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/*--------------- 
+                  CUSTOM CSS
+                              -----------------*/
+
+.light-text{
+  color: snow;
+}
+
+/*
+body{
+    padding-top:50px;
+}
+table.floatThead-table {
+    border-top: none;
+    border-bottom: none;
+    background-color: #fff;
+}
+*/
+
+/*
+.table-fixed tbody{
+    height:500px;
+    overflow-y:auto;
+}
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+.table-fixed tbody td, .table-fixed thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
+}*/
+
+
+
+ 
+/*Works but requires fixed height of table... */
+table {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+table * {
+    box-sizing: inherit;
+    -moz-box-sizing: inherit;
+}
+thead {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+tbody {
+    overflow-y: scroll;
+    display: inline-block;
+}
+thead > tr, tbody > tr, tfoot > tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+thead, tfoot {
+    flex-shrink: 0;
+}
+th, tbody td {
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+/*
+@media screen and (min-height: 500px){
+    table{
+        height: 400px;
+    }
+}
+@media screen and (min-height: 400px){
+    table{
+        height:300px;
+    }
+}
+@media screen and (min-height: 600px){
+    table{
+        height:500px;
+    }
+}
+@media screen and (min-height: 700px){
+    table{
+        height:600px;
+    }
+}
+*/
+
+.row-content{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.container-border{
+  border:5px solid gray;
+  background: white;
+  border-radius: 15px;
+  padding:0px;
+}
+
+.container-border h2{
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  margin-top:0px;
+}
+
+.container-xs-padding {
+  padding: 10px;
+  padding-top: 50px;
+}
+
+.td-width-30{
+    min-width:30px;
+  width: 30px;
+}
+
+.td-width-60{
+    min-width:60px;
+  width: 60px;
+}
+
+.td-width-90{
+    min-width:90px;
+  width: 90px;
+}
+
+.td-width-120{
+    min-width:120px;
+  width: 120px;
+}
+
+.td-width-150{
+    min-width:150px;
+  width: 150px;
+}
+
+.td-width-200{
+    min-width:200px;
+  width: 200px;
+}
+
+.td-width-250{
+    min-width:250px;
+  width: 250px;
+}
+
+.td-width-300{
+    min-width:300px;
+  width: 300px;
+}
+
+.td-width-400{
+    min-width:400px;
+    width:400px;
+}
+
+.td-bg-success{
+    background-color: lime;
+}
+
+.td-bg-danger{
+    background-color: red;
+}
+
+.td-bg-warning{
+    background-color: gold;
+}
+
+.td-static-column {
+    margin: 0;
+    overflow:initial;
+}
+
+.ul-small-pad{
+    padding:0px;
+    padding-left:15px;
+}
+
+.btn-primary{
+  background-color:slategray;
+  border-color: slategray;
+}
+
+.btn-primary:checked, .btn-primary:hover, .btn-primary:active, .btn-primary:focus{
+    background-color:darkslategray;
+}
+
+.tabs-background:active, .tabs-background:hover, .tabs-background:focus{
+    border-color:darkslategray;
+    color:darkslategray;
+}
+
+.form-group{
+  padding:10px;
+}
+
+.form-check{
+  padding-bottom: 10px;
+  padding-top:10px;
+}
+
+.box-sm{
+    border:1px,solid,black;
+    width:10px;
+    height:10px;
+}
+
+.box-md{
+    border:1px,solid,black;
+    width:50px;
+    height:50px;
+}
+
+.box-lg{
+    border:1px,solid,black;
+    width:125px;
+    height:125px;
+}
+
+/* SPINNING GLYPHICON */
+.glyphicon.spinning {
+    animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg); }
+    to { transform: scale(1) rotate(360deg); }
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
